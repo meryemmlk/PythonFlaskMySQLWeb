@@ -1,0 +1,200 @@
+Collection Name,Product/Service Name,Sales Description,Type,Sales Price / Rate
+BA,BA_3015WR,"Wine Rack -30""W * 15H"" * 12""D",Wall,454
+BA,BA_30GR,"Stemware Rack - 30""W",Wall,187
+BA,BA_3615WR,"Wine Rack -36""W * 15H"" * 12""D",Wall,532
+BA,BA_36GR,"Stemware Rack - 36""W",Wall,199
+BA,BA_AW1230,"Wall Angle End -12""W * 30""H * 12""D",Wall,215
+BA,BA_AW1236,"Wall Angle End -12""W * 36""H * 12""D",Wall,242
+BA,BA_AW1242,"Wall Angle End -12""W * 42""H * 12""D",Wall,270
+BA,BA_B09,"Base cabinet - 9""W * 34-1/2""H * 24""D",Base,281
+BA,BA_B12,"Base cabinet - 12""W * 34-1/2""H * 24""D",Base,330
+BA,BA_B15,"Base cabinet - 15""W * 34-1/2""H * 24""D",Base,349
+BA,BA_B18,"Base cabinet - 18""W * 34-1/2""H * 24""D",Base,367
+BA,BA_B21,"Base cabinet - 21""W * 34-1/2""H * 24""D",Base,398
+BA,BA_B24,"Base cabinet - 24""W * 34-1/2""H * 24""D",Base,448
+BA,BA_B27,"Base cabinet - 27""W * 34-1/2""H * 24""D",Base,480
+BA,BA_B30,"Base cabinet - 30""W * 34-1/2""H * 24""D",Base,504
+BA,BA_B33,"Base cabinet - 33""W * 34-1/2""H * 24""D",Base,635
+BA,BA_B36,"Base cabinet - 36""W * 34-1/2""H * 24""D",Base,660
+BA,BA_B42,"Base cabinet - 42""W * 34-1/2""H * 24""D",Base,770
+BA,BA_BBC36/42 Left,"Blind Base - 36""W * 34-1/2""H * 24""D Left",Base,504
+BA,BA_BBC36/42 Right,"Blind Base - 36""W * 34-1/2""H * 24""D Right",Base,504
+BA,BA_BES12L,"Base End Shelf 12""W * 34-1/2""H * 24""D-1S-L",Base,380
+BA,BA_BES12R,"Base End Shelf 12""W * 34-1/2""H * 24""D-1S-R",Base,380
+BA,BA_BF3,"Base Filler - 3""W * 3/4""H * 34-1/2""L",Accessory,73
+BA,BA_BF6,"Base Filler - 6""W * 3/4""H * 34-1/2""L",Accessory,108
+BA,BA_BF636,"Base Filler - 6""W * 3/4""H * 34-1/2""L",Base,120
+BA,BA_BMC,"Base Microwave Cabinet  -30""W * 34-1/2""H * 24""D",Noninventory,593
+BA,BA_BP9636-1/4,"Finished Plywood Panel -36""W * 96""H * 1/4""D",Accessory,143
+BA,BA_BRA24,"Base Return Angle -17-1/2""W * 34-1/2""H * 24""D",Accessory,513
+BA,BA_BSPR12,"Base Spice Pull Out -12""W * 34-1/2""H * 24""D",Base,585
+BA,BA_BSPR9,"Base Spice Pull Out -9""W * 34-1/2""H * 24""D",Base,448
+BA,BA_BT09,"Base cabinet - 9""W * 34-1/2""H * 24""D",Base,262
+BA,BA_CBL11,"Corbel- 6""W * 11""H * 4-1/2""D",Accessory,274
+BA,BA_CBL21,"Corbel- 6""W * 21""H * 4-1/2""D",Accessory,311
+BA,"BA_CM1-5/8""","Crown Molding - 1-5/8""W *  96""L",Accessory,100
+BA,"BA_CM2-1/2""","Crown Molding - 2-1/2""W * 96""L",Accessory,150
+BA,BA_CM4,"Cove Molding 4""W * 96""L",Accessory,204
+BA,BA_CM4R,"Crown Molding 4""W/R W *  96""L",Accessory,204
+BA,BA_DB12-3,"3 Drawer Base- 12""W * 34-1/2""H * 24""D- 3 Drawers",Base,498
+BA,BA_DB15-3,"3 Drawer Base- 15""W * 34-1/2""H * 24""D- 3 Drawers",Base,536
+BA,BA_DB18-3,"3 Drawer Base- 18""W * 34-1/2""H * 24""D- 3 Drawers",Base,648
+BA,BA_DB21-3,"3 Drawer Base- 21""W * 34-1/2""H * 24""D- 3 Drawers",Base,691
+BA,BA_DB24-3,"3 Drawer Base- 24""W * 34-1/2""H * 24""D- 3 Drawers",Base,735
+BA,BA_DB30-3,"3 Drawer Base- 30""W * 34-1/2""H * 24""D- 3 Drawers",Base,754
+BA,BA_DB36-3,"3 Drawer Base- 36""W * 34-1/2""H * 24""D- 3 Drawers",Base,828
+BA,BA_DWR3,"Dishwasher Panel -24""W * 34-1/2""H * 1/2""D- w 3"" Return",Accessory,94
+BA,BA_FBM,"Base Board Molding - 4-5/8""W *3/4 ""H * 96""L",Accessory,161
+BA,BA_FD18,"File Drawer Base -16-1/2""W * 28-1/2""H * 21""D",Base,440
+BA,BA_ICM,"Inside Corner Molding - 2-1/2""W * 3-1/4""H * 96""L",Accessory,45
+BA,BA_KD30,"Knee Drawer - 30""W * 5""H * 21""D - Can be trimmed to 24""",Accessory,221
+BA,BA_LM(LRM8),"Light Rail Molding - 1-1/2""W * 3/4""H * 96""L",Accessory,99
+BA,BA_LS3312,"Lazy Susan - 33""W * 34-1/2""H",Base,909
+BA,BA_LS3612,"Lazy Susan - 36""W * 34-1/2""H",Base,946
+BA,BA_MBEP24,"Base End Panel -23-1/2 ""W * 29-1/2""H * 3/4""D",Accessory,243
+BA,BA_MWEP1230,"Wall End Panel -11-1/2 ""W * 29-1/2""H * 3/4""D",Accessory,119
+BA,BA_MWEP1236,"Wall End Panel -11-1/2 ""W * 35-1/2""H * 3/4""D",Accessory,144
+BA,BA_MWEP1242,"Wall End Panel -11-1/2 ""W * 41-1/2""H * 3/4""D",Accessory,168
+BA,BA_OC3090U,"Oven Cabinet - 30""W *90""H * 24""D",Tall,1351
+BA,BA_OC3096U,"Oven Cabinet - 30""W *96""H * 24""D",Tall,1482
+BA,BA_OC3384U,"Oven Cabinet - 33""W *84""H * 24""D",Tall,1370
+BA,BA_OC3390U,"Oven Cabinet - 33""W *90""H * 24""D",Tall,1507
+BA,BA_OC3396U,"Oven Cabinet - 33""W *96""H * 24""D",Tall,1662
+BA,BA_OCM8,"Outside Corner Molding - 5/8""W * 5/8""H * 96""L",Accessory,63
+BA,BA_PC1884,"Tall Pantry - 18""W *84""H * 24""D",Tall,990
+BA,BA_PC1890,"Tall Pantry - 18""W *90""H * 24""D",Tall,1027
+BA,BA_PC1896,"Tall Pantry - 18""W *96""H * 24""D",Tall,1077
+BA,BA_PC2484,"Tall Pantry - 24""W *84""H * 24""D",Tall,1164
+BA,BA_PC2490,"Tall Pantry - 24""W *90""H * 24""D",Tall,1227
+BA,BA_PC2496,"Tall Pantry - 24""W *96""H * 24""D",Tall,1276
+BA,BA_PC3084,"Tall Pantry - 30""W *84""H * 24""D",Tall,1320
+BA,BA_PC3090,"Tall Pantry - 30""W *90""H * 24""D",Tall,1419
+BA,BA_PC3096,"Tall Pantry - 30""W *96""H * 24""D",Tall,1526
+BA,BA_PR3015,"Plate Rack - 30""W * 15""H * 12""D",Wall,374
+BA,BA_QRM,"Quarter Round Molding - 3/4""W * 3/4""H * 96""L",Accessory,40
+BA,BA_RHE3024,Range Hood,Accessory,915
+BA,BA_ROT15,Roll Out Trays - for B15 cabinet,Accessory,113
+BA,BA_ROT18,Roll Out Trays - for B18 cabinet,Accessory,125
+BA,BA_ROT21,Roll Out Trays - for B21 cabinet,Accessory,141
+BA,BA_ROT24,Roll Out Trays - for B24 cabinet,Accessory,153
+BA,BA_ROT27,Roll Out Trays - for B27 cabinet,Accessory,164
+BA,BA_ROT30,Roll Out Trays - for B30 cabinet,Accessory,170
+BA,BA_ROT33,Roll Out Trays - for B33 cabinet,Accessory,181
+BA,BA_ROT36,Roll Out Trays - for B36 cabinet,Accessory,192
+BA,BA_RRP96,"Refrigerator Panel -24""W * 96""H * 1/2""D with 3"" return",Accessory,249
+BA,BA_SAMPLE,Sample Door,sample,50
+BA,BA_SB27,"Sink Base -27""W * 34-1/2""H * 24""D",Base,476
+BA,BA_SB30,"Sink Base -30""W * 34-1/2""H * 24""D",Base,504
+BA,BA_SB33,"Sink Base -33""W * 34-1/2""H * 24""D",Base,523
+BA,BA_SB36,"Sink Base -36""W * 34-1/2""H * 24""D",Base,548
+BA,BA_SB42,"Sink Base -42""W * 34-1/2""H * 24""D",Base,609
+BA,BA_SM8,"Scribe Molding - 1-1/4""W * 3/8""H * 96""L",Accessory,34
+BA,BA_TC15,"Trash Can - for 15""W Base",Accessory,876
+BA,BA_TC18,"Trash Can - for 18""W Base",Accessory,988
+BA,BA_TK8,"Toe Kick - 4-1/2""W * 1/4""H * 96""L",Accessory,37
+BA,BA_TUK,Touch up kit,Accessory,65
+BA,BA_V2421,"Vanity Sink Base -24""W * 34-1/2""H * 21""D - 1 False Drawer",Vanity,387
+BA,BA_V2721,"Vanity Sink Base -27""W * 34-1/2""H * 21""D - 1 False Drawer",Vanity,411
+BA,BA_V3021,"Vanity Sink Base -30""W * 34-1/2""H * 21""D - 1 False Drawer",Vanity,435
+BA,BA_V3621,"Vanity Sink Base -36""W * 34-1/2""H * 21""D - 1 False Drawer",Vanity,473
+BA,BA_V3621L,"Vanity Sink Combo -36""W * 34-1/2""H * 21""D - Left Drawers",Vanity,611
+BA,BA_V3621R,"Vanity Sink Combo -36""W * 34-1/2""H * 21""D - Right Drawers",Vanity,611
+BA,BA_V4221L,"Vanity Sink Combo -42""W * 34-1/2""H * 21""D - Left Drawers",Vanity,672
+BA,BA_V4221R,"Vanity Sink Combo -42""W * 34-1/2""H * 21""D - Right Drawers",Vanity,672
+BA,BA_VAL36,"Arched Valance - 6""H * 36""L",Accessory,124
+BA,BA_VAL48,"Arched Valance - 6""H * 48""L",Accessory,150
+BA,BA_VAL60,"Arched Valance - 6""H * 60""L",Accessory,174
+BA,BA_VAL72,"Arched Valance - 6""H * 72""L",Accessory,199
+BA,BA_VDB12-3,"Vanity Drawwer Base -12""W * 34-1/2""H * 21""D - 3 Drawers",Vanity,560
+BA,BA_VDB15-3,"Vanity Drawwer Base -15""W * 34-1/2""H * 21""D - 3 Drawers",Vanity,585
+BA,BA_VDB18-3,"Vanity Drawwer Base -18""W * 34-1/2""H * 21""D - 3 Drawers",Vanity,616
+BA,BA_VDB21-3,"Vanity Drawwer Base -21""W * 34-1/2""H * 21""D - 3 Drawers",Vanity,660
+BA,BA_VDB24-3,"Vanity Drawwer Base -21""W * 34-1/2""H * 21""D - 3 Drawers",Vanity,697
+BA,BA_VDB60-2S,"Vanity Sink & Drawer Base Combo- 60""W * 34-1/2""H * 21""D-  Two Sinks",Vanity,1152
+BA,BA_VDDB48-1S,"Vanity Sink & Drawers Combo- 48""W * 34-1/2""H * 21""D- 2 Drawers",Vanity,828
+BA,BA_VDDB60-1S,"Vanity Sink Combo -60""W * 34-1/2""H * 21""D - One Sink",Vanity,1152
+BA,BA_W0930,"Wall cabinet - 9""W * 30""H * 12""D",Wall,199
+BA,BA_W0936,"Wall cabinet - 9""W * 36""H * 12""D",Wall,211
+BA,BA_W0942,"Wall cabinet - 9""W * 42""H * 12""D",Wall,243
+BA,BA_W1230,"Wall cabinet - 12""W * 30""H * 12""D",Wall,218
+BA,BA_W1236,"Wall cabinet - 12""W * 36""H * 12""D",Wall,255
+BA,BA_W1242,"Wall cabinet - 12""W * 42""H * 12""D",Wall,267
+BA,BA_W1530,"Wall cabinet - 15""W * 30""H * 12""D",Wall,255
+BA,BA_W1536,"Wall cabinet - 15""W * 36""H * 12""D",Wall,267
+BA,BA_W1542,"Wall cabinet - 15""W * 42""H * 12""D",Wall,299
+BA,BA_W1830,"Wall cabinet - 18""W * 30""H * 12""D",Wall,274
+BA,BA_W1830GD,"Wall with Glass Door - 18""W * 30""H * 12""D",Wall,403
+BA,BA_W1836,"Wall cabinet - 18""W * 36""H * 12""D",Wall,299
+BA,BA_W1842,"Wall cabinet - 18""W * 42""H * 12""D",Wall,318
+BA,BA_W1842GD,"Wall with Glass Door-18""W * 42""H * 12""D",Wall,446
+BA,BA_W2130,"Wall cabinet - 21""W * 30""H * 12""D",Wall,305
+BA,BA_W2130GD,"Wall with Glass Door -21""W * 30""H * 12""D",Wall,433
+BA,BA_W2136,"Wall cabinet - 21""W * 36""H * 12""D",Wall,330
+BA,BA_W2136GD,"Wall with Glass Door -21""W * 36""H * 12""D",Wall,459
+BA,BA_W2142,"Wall cabinet - 21""W * 42""H * 12""D",Wall,367
+BA,BA_W2142GD,"Wall with Glass Door-21""W * 42""H * 12""D",Wall,496
+BA,BA_W2430,"Wall cabinet - 24""W * 30""H * 12""D",Wall,323
+BA,BA_W2430GD,"Wall with Glass Door -24""W * 30""H * 12""D",Wall,452
+BA,BA_W2436,"Wall cabinet - 24""W * 36""H * 12""D",Wall,367
+BA,BA_W2436GD,"Wall with Glass Door -24""W * 36""H * 12""D",Wall,496
+BA,BA_W2442,"Wall cabinet - 24""W * 42""H * 12""D",Wall,411
+BA,BA_W2442GD,"Wall with Glass Door-24""W * 42""H * 12""D",Wall,539
+BA,BA_W2730,"Wall cabinet - 27""W * 30""H * 12""D",Wall,342
+BA,BA_W2736,"Wall cabinet - 27""W * 36""H * 12""D",Wall,405
+BA,BA_W2742,"Wall cabinet - 27""W * 42""H * 12""D",Wall,448
+BA,BA_W3012,"Bridge Wall Cabinet - 30""W * 12""H * 12""D",Wall,218
+BA,BA_W3015,"Bridge Wall Cabinet - 30""W * 15""H * 12""D",Wall,255
+BA,BA_W3018,"Bridge Wall Cabinet - 30""W * 18""H * 12""D",Wall,274
+BA,BA_W3021,"Bridge Wall Cabinet - 30""W * 21""H * 12""D",Wall,305
+BA,BA_W3024,"Bridge Wall Cabinet - 30""W * 24""H * 12""D",Wall,323
+BA,BA_W3030,"Wall cabinet - 30""W * 30""H * 12""D",Wall,361
+BA,BA_W3030GD,"Wall with Glass Door -30""W * 30""H * 12""D",Wall,490
+BA,BA_W3036,"Wall cabinet - 30""W * 36""H * 12""D",Wall,424
+BA,BA_W3036GD,"Wall with Glass Door -30""W * 36""H * 12""D",Wall,552
+BA,BA_W3042,"Wall cabinet - 30""W * 42""H * 12""D",Wall,466
+BA,BA_W3042GD,"Wall with Glass Door-30""W * 42""H * 12""D",Wall,595
+BA,BA_W3315,"Bridge Wall Cabinet - 33""W * 15""H * 12""D",Wall,264
+BA,BA_W3318,"Bridge Wall Cabinet - 33""W * 18""H * 12""D",Wall,287
+BA,BA_W3324,"Bridge Wall Cabinet - 33""W * 24""H * 12""D",Wall,345
+BA,BA_W3330,"Wall cabinet - 33""W * 30""H * 12""D",Wall,405
+BA,BA_W3336,"Wall cabinet - 33""W * 36""H * 12""D",Wall,454
+BA,BA_W3342,"Wall cabinet - 33""W * 42""H * 12""D",Wall,541
+BA,BA_W3612,"Bridge Wall Cabinet - 36""W * 12""H * 12""D",Wall,255
+BA,BA_W361224,"Refrigerator Wall Cabinet - 36""W * 12""H * 24""D",Wall,267
+BA,BA_W3615,"Bridge Wall Cabinet - 36""W * 15""H * 12""D",Wall,274
+BA,BA_W361524,"Refrigerator Wall Cabinet - 36""W * 15""H * 24""D",Wall,299
+BA,BA_W3618,"Bridge Wall Cabinet - 36""W * 18""H * 12""D",Wall,299
+BA,BA_W361824,"Refrigerator Wall Cabinet - 36""W * 18""H * 24""D",Wall,330
+BA,BA_W3621,"Bridge Wall Cabinet - 36""W * 21""H * 12""D",Wall,330
+BA,BA_W362124,"Refrigerator Wall Cabinet - 36""W * 21""H * 24""D",Wall,367
+BA,BA_W3624,"Bridge Wall Cabinet - 36""W * 24""H * 12""D",Wall,367
+BA,BA_W362424,"Refrigerator Wall Cabinet - 36""W * 24""H * 24""D",Wall,398
+BA,BA_W3630,"Wall cabinet - 36""W * 30""H * 12""D",Wall,424
+BA,BA_W3630GD,"Wall with Glass Door -36""W * 30""H * 12D",Wall,552
+BA,BA_W3636,"Wall cabinet - 36""W * 36""H * 12""D",Wall,510
+BA,BA_W3636GD,"Wall with Glass Door-36""W * 36""H * 12""D",Wall,639
+BA,BA_W3642,"Wall cabinet - 36""W * 42""H * 12""D",Wall,592
+BA,BA_W3642GD,"Wall with Glass Door -36""W * 42""H * 12""D",Wall,719
+BA,BA_WBC2730,"Wall Blind Cabinet - 27""W * 30""H * 12""D",Wall,498
+BA,BA_WBC2736,"Wall Blind Cabinet - 27""W * 36""H * 12""D",Wall,517
+BA,BA_WBC2742,"Wall Blind Cabinet - 27""W * 42""H * 12""D",Wall,667
+BA,BA_WDC2430,"Wall Diagonal Cabinet -24""W * 30H"" * 12""D",Wall,473
+BA,BA_WDC2430GD,"Wall Diagonal Corner with Glass Door -24""W * 30""H * 12""D",Wall,602
+BA,BA_WDC2436,"Wall Diagonal Cabinet -24""W * 36H"" * 12""D",Wall,554
+BA,BA_WDC2436GD,"Wall Diagonal Corner with Glass Door -24""W * 36""H * 12""D",Wall,682
+BA,BA_WDC2442,"Wall Diagonal Cabinet -24""W * 42H"" * 12""D",Wall,616
+BA,BA_WDC2442GD,"Wall Diagonal Corner with Glass Door -24""W * 42""H * 12""D",Wall,745
+BA,BA_WES1230K,"Open End Shelf -12""W * 30""H * 12""D",Wall,255
+BA,BA_WES1236K,"Open End Shelf -12""W * 36""H * 12""D",Wall,286
+BA,BA_WES1242K,"Open End Shelf -12""W * 42""H * 12""D",Wall,311
+BA,BA_WF336,"Wall Filler - 3""W * 3/4""H * 30""L",Accessory,52
+BA,BA_WF342,"Wall Filler - 3""W * 3/4""H * 42""L",Accessory,55
+BA,BA_WF396,"Wall Filler - 3""W * 3/4""H * 96""L",Accessory,136
+BA,BA_WF642,"Wall Filler - 6""W * 3/4""H * 30""L",Accessory,109
+BA,BA_WF696,"Tall Filler - 6""W * 3/4""H * 96""L",Accessory,273
+BA,BA_WM303012,"Microwave Wall -30""W * 30H""",Wall,405
+BA,BA_WM303612,"Microwave Wall -30""W * 36H""",Wall,454
+BA,BA_WM304212,"Microwave Wall -30""W * 42H""",Wall,510
+BA,BA_WR3015,"Wine Rack -30""W * 15H"" * 12""D",Wall,396
+BA,BA_WR3615,"Wine Rack -36""W * 15H"" * 12""D",Wall,457
+BA,BA_WSV42,"Wall Skin Panel -15""W * 42""H * 1/4""D",Accessory,85

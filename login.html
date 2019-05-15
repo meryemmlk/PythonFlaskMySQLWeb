@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" style="text-align:center;">
+            <h1 style="font-size: 60pt;">CORKBOARD<span style="color:#007bff">IT<span></h1>
+			<h2>Explore.</h2>
+			<h2>Share.</h2>
+			<h2>Inspire.</h2>
+			<h3 style="color:red">{{message}}</h3>
+			<h3 style="color:red">{{emailmessage}}</h3>
+			<h3 style="color:red">{{pinmessage}}</h3>
+			<div class="row" style="margin: 7px 0px">
+			<form action="/" method='POST'>
+			<div class="col-xs-3 col-xs-offset-3">
+			<label style="float:right">Email</label>
+			</div>
+			<div class="col-xs-6">
+			<input type='email' name='e' style="float:left" required><br>
+			</div>
+			</div>
+			<div class="row" style="margin: 7px 0px">
+			<div class="col-xs-3 col-xs-offset-3">
+			<label style="float:right">PIN</label>
+			</div>
+			<div class="col-xs-6">
+			<input type='password' name='p' pattern="[0-9]{4}" style="float:left" required><br>
+			</div>
+			</div>
+			<div class="row" style="margin: 7px 0px">
+			<input type='submit' class="btn btn-primary btn-lg" value='login'>
+			</div>
+			</form>
+			</div>
+        </div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HOMEPAGE</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron" style="text-align:center;">
+		<div class="row">
+		    <div class="col-md-4">
+			<p><a class="btn btn-primary btn-md" href="/homepage">Estimate</a></p>
+			</div>
+			<div class="col-md-4">
+			<p><a class="btn btn-primary btn-md" href="/activity" Disabled>Homepage</a></p>
+			</div>
+			<div class="col-md-2">
+			
+			</div>
+			<div class="col-md-2">
+			<p><a class="btn btn-primary btn-md" href="/logout">Logout</a></p>
+			</div>
+			
+		</div>
+
+		
+		<div class="row">
+			<h3 style="font-size: 16pt;">Select Customer</h3>
+			<!--<p><a href="/select_customer_crete_estimate" class="btn btn-primary btn-lg" style="color:white; font-weight:600"> Select Customer </a><p>-->
+			<form action="/select_customer" method="GET">
+			<input name='cname'  type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+			<input type='submit' value='select customer' class="btn btn-primary btn-md">
+			</form>
+		</div>
+				<div class="row">
+			<h3 style="font-size: 16pt;">Customer List</h3>
+			
+			<div class="row" style="display:">	
+				<div class="col-sm-4">
+					<ul id="select-customer" >
+						{% for recw in customers %}
+							{% if recw %}
+							<li><a href="/select_customer/{{recw[0]}}">{{recw[0]}}</a></li>
+							{% endif %}
+						{% endfor %} 
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<h3 style="font-size: 16pt;">Create Estimate</h3>
+			<!--<p><a href="/select_customer_crete_estimate" class="btn btn-primary btn-lg" style="color:white; font-weight:600"> Select Customer </a><p>-->
+			<form action="/homepage" method="POST">
+			<input type='submit' value='create estimate' class="btn btn-primary btn-md">
+			</form>
+		</div>
+		
+		
+
+		</div>
+        <!-- Info rows start -->
+        
+
+      
+	</div>
+</body>
+<script type="text/javascript">
+function handleSelect(elm)
+{
+window.location = "add_product/" + elm.value;
+}
+
+function myFunction() {
+  // Declare variables
+  console.log('myInput')
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  //console.log('myInput-'+val)
+  filter = input.value.toUpperCase();
+  //console.log(filter)
+  ul = document.getElementById("select-customer");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+</html>

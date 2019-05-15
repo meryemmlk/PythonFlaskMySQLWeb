@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HOMEPAGE</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron" style="text-align:center;">
+		<div class="row">
+		    <div class="col-md-4">
+			<p><a class="btn btn-primary btn-md" href="/homepage" disabled>Estimate</a></p>
+			</div>
+			<div class="col-md-4">
+			<p><a class="btn btn-primary btn-md" href="/activity">Homepage</a></p>
+			</div>
+			<div class="col-md-2">
+			<p  style="font-size: 10pt;">{{ personal[0] }} {{ personal[1] }}</p>
+			</div>
+			<div class="col-md-2">
+			<p><a class="btn btn-primary btn-md" href="/logout">Logout</a></p>
+			</div>
+			
+		</div>
+		<div class="row">
+            <h2 style="font-size: 20pt;">Product Selection Page</h2>
+			<!--<p><a href="/popular_tags" class="btn"> Popular Tags </a><p>-->
+			<p>Customer : {{ cname }}</p>
+			<br>
+			
+        </div>
+		<div class="row">
+			<h4 style="font-size: 12pt;">Collection List</h4>
+			<div class="row">
+			{% for rec in collections %}
+				{% if rec %}
+				<div class="col-xs-4 col-md-3">
+				<a href="/add_collection/{{rec[0]}}" class="btn btn-primary btn-sm" style="color:white; font-weight:600">{{rec[0]}}</a>
+				</div>
+				{% endif %}
+			{% endfor %} 
+			</div>
+			
+			<!--
+			{% for rec in recent %}
+				{% if rec[2] %}
+				<h3><a href="/askpassword/{{rec[0]}}" >{{rec[1]}}
+				{% else %}
+				<h3><a href="/view_corkboard/{{rec[0]}}" >{{rec[1]}}
+				{% endif %}
+				{% if rec[2] %}<span style="color:red"> (Private)</span>{% endif%}</a> </h3>
+				<p>by {{rec[3]}} {{rec[4]}}, last updated {{datelist[loop.index0]}} at {{timelist[loop.index0]}}</p>
+			{% endfor %} 
+			<!--<p>{{last_name}}</p>-->
+			<br>
+		</div>
+		<div class="row">
+			<h2 style="font-size: 20pt;">My Selections</h2>
+			<p><a href="/add_cork" class="btn btn-primary btn-lg" style="color:white; font-weight:600"> Add corkboard </a><p>
+			<h4 style="font-size: 12pt;">Collection List</h4>
+			<div class="col-xs-12">
+			{% for rec in selected_collections %}
+				{% if rec %}
+				<div class="row">
+					<h4 id="{{rec}}" style="font-size: 12pt;">Collection : {{rec}}</h4>
+					
+					<div class="row">	
+						<div class="col-sm-4">
+							<h5> Walls</h5>
+							<select id="select-key" onchange="javascript:handleSelect(this)">
+							   <option value="Select" selected="selected">Please Select</option>
+								 {% for recw in walls %}
+									{% if recw %}
+									<option value="{{recw[0]}}">{{recw[0][3:]}}</option>
+									{% endif %}
+								{% endfor %} 
+								  
+							</select>
+						</div>
+					</div>
+					<!--<input type="text" id="myInput-{{rec}}" onkeyup="myFunction(rec)" placeholder="Search for names..">-->
+					<!--<div class="row">
+						<form action="/search" method="POST">
+						<input name='s' type="text" id="myInput-{{rec}}" onkeyup="myFunction(({{rec}}))" placeholder="Search for names..">
+						<input type='submit' value='add'>
+						</form>
+						<br>
+					</div>
+					<div class="row" style="display:none">	
+						<div class="col-sm-4">
+							<h5> Walls</h5>
+							<ul id="select-product-{{rec}}" >
+								 {% for recw in walls %}
+									{% if recw %}
+									<li><a href="#">{{recw[0][3:]}}</a></li>
+									{% endif %}
+								{% endfor %} 
+							</ul>
+						</div>
+					</div>-->
+					<!-- print out the selected products -->
+						<div class="row" style="margin-top:20px">	
+							{%if selected_collection_products %}
+								<div class="col-sm-2">
+									<p style="font-size:14px; font-weight:bold">Product Id</p>
+									</div>
+									<div class="col-sm-4">
+									<p style="font-size:14px; font-weight:bold">Description</p>
+									</div>
+									<div class="col-sm-1">
+									<p style="font-size:14px; font-weight:bold">Price</p>
+									</div>
+									<div class="col-sm-2">
+									<p style="font-size:14px; font-weight:bold">Quantity</p>
+									</div>
+									<div class="col-sm-1">
+									<p style="font-size:14px; font-weight:bold">Subtotal</p>
+									</div>
+									<div class="col-sm-2">
+									<p style="font-size:14px; font-weight:bold">Subtotal</p>
+									</div>
+							{% endif %}
+						</div>
+						
+							{% for key, prod in selected_collection_products[rec].items() %}
+								{% if prod %}
+								<div class="row">		
+									<div class="col-sm-2">
+									<p style="font-size:14px">{{prod[0]}}</p>
+									</div>
+									<div class="col-sm-4">
+									<p style="font-size:14px">{{prod[1]}}</p>
+									</div>
+									<div class="col-sm-1">
+									<p style="font-size:14px">{{prod[2]}}</p>
+									</div>
+									<form action="/update/{{prod[0]}}" method="POST">
+									<div class="col-sm-2">
+									<p style="font-size:14px"><input name='qty' value="{{prod[3]}}" style="width:40px"></p>
+									</div>
+									<div class="col-sm-1">
+									<p style="font-size:14px">{{prod[4]}}</p>
+									</div>
+									<!-- update  -->
+									<div class="col-sm-1">
+									<input type='submit' value='update' class="btn btn-primary btn-xs">
+									<!--<a href="/update/{{rec[0]}}" class="btn btn-primary btn-xs" style="color:white; font-weight:600">update</a>-->
+									</div>
+									</form>
+									<!-- delete  -->
+									<div class="col-sm-1">
+									<a href="/delete/{{prod[0]}}" class="btn btn-primary btn-xs" style="color:white; font-weight:600">delete</a>
+									</div>
+								</div>
+								{% endif %}
+								{% endfor %}
+						
+					</div>
+				
+				{% endif %}
+			{% endfor %}
+				</div>
+			</div>
+			<!--{% for cork in data %}
+				{% if cork[2] %}	
+				<p><a href="/askpassword/{{cork[0]}}">{{cork[1]}}</a><span style="color:red"> (private) </span> with {{cork[3]}} pushpin(s)</p>
+				{% else %}
+				<p><a href="/view_corkboard/{{cork[0]}}">{{cork[1]}}</a> with {{cork[3]}} pushpin(s)</p>
+				{% endif %}
+			{% endfor %}
+			<!--<p>{{last_name}}</p>-->
+			<br>
+		</div>
+		
+		
+		<!--
+		<div class="row">
+			<h1 style="font-size: 30pt;">Search</h1>
+			<form action="/search" method="POST">
+			<input name='s'>
+			<input type='submit' value='search'>
+			</form>
+			<!--<p>{{last_name}}</p>
+			<br>
+		</div>-->
+		<!--
+		<div class="row">
+		    <div class="col-md-4">
+			<p><a class="btn btn-primary btn-lg" href="/popular_sites">Popular Sites</a></p>
+			</div>
+			<div class="col-md-4">
+			<p><a class="btn btn-primary btn-lg" href="/popular_tags">Popular Tags</a></p>
+			</div>
+			<div class="col-md-4">
+			<p><a class="btn btn-primary btn-lg" href="/corkboard_statistics">Corkboard Statistics</a></p>
+			</div>
+		</div>-->
+		</div>
+        <!-- Info rows start -->
+        
+
+      
+	</div>
+</body>
+<script type="text/javascript">
+function handleSelect(elm)
+{
+window.location = "add_product/" + elm.value;
+}
+
+function myFunction(val) {
+  // Declare variables
+  console.log('myInput-'+val)
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput-'+val);
+  //console.log('myInput-'+val)
+  filter = input.value.toUpperCase();
+  //console.log(filter)
+  ul = document.getElementById("select-product-"+val);
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+</html>
